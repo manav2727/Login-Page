@@ -1,0 +1,151 @@
+body{
+    background: #535454;
+    font-family: sans-serif;
+}
+.login-form{
+    background: #fff;
+    width: 35em;
+    margin: 10px 0px 0px 390px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.3em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
+}
+.heading{
+    background: #373c7d;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+.left{
+    width: 50%;
+    float: left;
+    padding: 1.7em 1.5em 2.5em 1.5em;
+    box-sizing: border-box;
+}
+.right{
+    width: 50%;
+    float: right;
+    padding: 1.7em 1.5em 2.5em 1.5em;
+    box-sizing: border-box;
+}
+.right:before{
+    content: 'or';
+    color: gray;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 0.5em;
+    width: 0.5em;
+    left: -1.5em;
+    top: 1.2em;
+    z-index: 900;
+}
+.right:after{
+    content: '';
+    color: gray;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 7.5em;
+    width: 0.1em;
+    left: -0.85em;
+    top: -6.8em;
+    box-shadow: 0 88em gray;
+}
+.left label{
+    display: inline-block;
+    color: rgb(20, 17, 184);
+    font-size: 1.6em;
+    margin-top: 0.6em;
+}
+input[type="email"]{
+    border: 2px solid #ccc;
+    padding: 1em;
+    outline: none;
+    margin: 0.6em 0;
+    border-radius: 2em;
+    box-shadow: inset 0 0 0.6em rgb(36, 7, 104);
+    
+}
+input[type="password"]{
+    border: 2px solid #ccc;
+    padding: 1em;
+    outline: none;
+    margin: 0.6em 0;
+    border-radius: 2em;
+    box-shadow: inset 0 0 0.6em rgb(36, 7, 104);
+}
+input[type="submit"]{
+    background: #150a50;
+    color: #fff;
+    outline: none;
+    text-transform: uppercase;
+    padding: 1.2em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-radius: 2em;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 0.6em rgb(240, 237, 237);
+}
+input[type="submit"]:hover{
+    background: #d0e60b;
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+.right .connect{
+    color: gray;
+    font-size: 1.5em;
+    text-align: center;
+}
+a{
+    display: inline-block;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    width: 9em;
+    clear: both;
+    padding: 0.55em 0.3em;
+    text-align: center;
+    margin: 0.5em 0.1em 1em 0.1em;
+    border-radius: 0.3em;
+}
+a.fb{
+    background: #3a589a;
+    margin-top: 0.1em;
+
+}
+a.fb:hover{
+    background: #3a589a;
+    transform: scale(1.1);
+}
+a.twitter{
+    background: #4099ff;
+    margin-top: 0.1em;
+
+}
+a.twitter:hover{
+    background: #4099ff;
+    transform: scale(1.1);
+}
+a.gplus{
+    background: #e9544f;
+    margin-top: 0.1em;
+
+}
+a.gplus:hover{
+    background: #e9544f;
+    transform: scale(1.1);
+}
